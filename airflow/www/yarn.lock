@@ -2350,15 +2350,22 @@ dagre@^0.8.5:
     graphlib "^2.1.8"
     lodash "^4.17.15"
 
-datatables.net-bs@^1.10.23:
-  version "1.10.23"
-  resolved "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.10.23.tgz#985094ea63b28c630de4a0ecb75804ab53341fb0"
-  integrity sha512-O/kJxT93i9hIq8trdbHuIcHhrTodkVPfPqvxOqKK8lJ03XUUrT6V8ZoGyxROFjQGcgbye5CoRLVf7MY+5biOIQ==
+datatables.net-bs@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.13.1.tgz#db70bbb39ac556d1703add7f34c7e38fdfd5061b"
+  integrity sha512-xk7fGh4txtQWsvrkpQroHJse3YJ0Hkn3UAy1Kk1Ngok32BhVKIQ2t4ggchg73JY+o5TynBn5MgezYJpwMRU+Hg==
   dependencies:
-    datatables.net "1.10.23"
+    datatables.net ">=1.12.1"
     jquery ">=1.7"
 
-datatables.net@1.10.23, datatables.net@^1.10.23:
+datatables.net@>=1.12.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.13.1.tgz#199f7cb63f4536c135e161f95254212835a1c130"
+  integrity sha512-cX5dDHsbVdLLYKsWOSE0MvuGUcV88zU5dZ/taK2puJV6F9Fw0CFsP3+U/kr+qpDSFOBLWISRyM4Q9wWWovPTNg==
+  dependencies:
+    jquery ">=1.7"
+
+datatables.net@^1.10.23:
   version "1.10.23"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.23.tgz#59f7d7b12845183b1b379530d1385077e113ec01"
   integrity sha512-we3tlNkzpxvgkKKlTxTMXPCt35untVXNg8zUYWpQyC1U5vJc+lT0+Zdc1ztK8d3lh5CfdnuFde2p8n3XwaGl3Q==
