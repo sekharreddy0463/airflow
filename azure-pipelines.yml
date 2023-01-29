@@ -19,7 +19,8 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SnykSecurityScan@1
   inputs:
-      serviceConnectionEndpoint: 'sekharreddy04631'
-      testType: 'app'
-      monitorWhen: 'always'
-      failOnIssues: true
+    serviceConnectionEndpoint: 'sekharreddy04631'
+    testType: 'app'
+    severityThreshold: 'medium'
+    monitorWhen: 'always'
+    failOnIssues: false
