@@ -2,3 +2,6 @@ click~=7.0
 jinja2~=2.10
 keyring==10.1
 PyGithub
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
